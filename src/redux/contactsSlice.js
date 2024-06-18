@@ -1,7 +1,6 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
-// import persistReducer from "redux-persist/es/persistReducer";
-// import storage from "redux-persist/lib/storage"; // defaults to localStorage for web
 
+// навмисно задав початковий стан не пустий
 const contactsInitialState = {
   items: [
     { id: "id-1", name: "Rosie Simpson", number: "459-12-56" },
